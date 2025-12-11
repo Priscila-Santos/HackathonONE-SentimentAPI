@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.seu.time.sentiment: INFO
+
+ds:
+  api:
+    url: http://localhost:8000/predict  # endpoint do microserviço Python quando estiver pronto
